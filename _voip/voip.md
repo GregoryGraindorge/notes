@@ -7,7 +7,7 @@ The public switched telephone network (PSTN) is the aggregate of the world's cir
 ### PBX (Private branch extend)
 PBX stands for Private Branch Exchange, which is a private telephone network used within a company or organization. The users of the PBX phone system can communicate internally (within their company) and externally (with the outside world), using different communication channels like Voice over IP, ISDN or analog. A PBX also allows you to have more phones than physical phone lines (PTSN) and allows free calls between users. Additionally, it provides features like transfer calls, voicemail, call recording, interactive voice menus (IVRs) and call queues.
 
-![image](/home/r0ck/Documents/notes/_resources/pbx.jpeg)
+![image](_resources/pbx.jpeg)
 
 Time and technology, however, have changed the consumer telephony landscape, with the flag-bearer being the Open-Standards-based IP PBX. The point of the “IP” in this new era is that the phone calls are delivered using the Internet Protocol as the underlying transport technology.
 
