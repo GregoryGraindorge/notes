@@ -67,7 +67,7 @@ Now switch to some other console and try:
 macOS/FreeBSD also use the /dev file structure however, they use a numbered TTY naming convention ttys for every new terminal window you open e.g. /dev/ttys002
 
 ### Windows
-Microsoft Windows still has the concept of an LPT port for Line Printer Terminals within it's Command Shell for output to a printer./home/r0ck/Documents/notes/_resources/tty.jpg
+Microsoft Windows still has the concept of an LPT port for Line Printer Terminals within it's Command Shell for output to a printer./_resources/tty.jpg
 
 ## STTY COMMANDS
 On Unix-like operating systems, the stty command changes and prints terminal line settings.

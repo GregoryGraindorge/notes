@@ -36,17 +36,17 @@ The process of converting the signal from analog to digital is called `sampling`
 
 - First we take an analog signal.
 
-	![home r0ck Documents notes _resources png](/home/r0ck/Documents/notes/_resources/51c48c2ece395fd35a000000.png)
+	![home r0ck Documents notes _resources png](/_resources/51c48c2ece395fd35a000000.png)
 
 - Then we put some "dots" on the analog curve.
 
-	![home r0ck Documents notes _resources sampling jpeg](/home/r0ck/Documents/notes/_resources/sampling.jpeg)
+	![home r0ck Documents notes _resources sampling jpeg](/_resources/sampling.jpeg)
 
 - The recommend amount of sampling is `2 x 4000 hz` because `4000 hz` is the highest (average) frequency heard by human during a conversation. So the average sampling is in theory `8000 hz` per second.
 
 - Now we need to convert these dots into a digital format. There are two ways to do that, `PAM` and `PCM`. Today we `Pulse Code Modulation` to digitally represent sampled analog signals. For each dots on the curve, we are gonna use 8 bits to represent it.
 
-![home r0ck Documents notes _resources Screenshot](/home/r0ck/Documents/notes/_resources/Screenshot) from 2021-03-12 13-04-44.png
+![home r0ck Documents notes _resources Screenshot](/_resources/Screenshot) from 2021-03-12 13-04-44.png
 
 	- 1 bit for the `polarity`
 	- 3 bits for the `segment`
@@ -59,14 +59,14 @@ https://fitsmallbusiness.com/g729-vs-g711-voip-codecs/
 
 There are different codecs but the most popular are `G711` and `G729`.
 
-![home r0ck Documents notes _resources codecs jpeg](/home/r0ck/Documents/notes/_resources/codecs.jpeg)
+![home r0ck Documents notes _resources codecs jpeg](/_resources/codecs.jpeg)
 
 The main difference is in the compression. `G711` doesn't compress the data.
 
 # VOIP Components
 ## Cisco Unified Communication Manager
 A `CUCM` is a `PBX` replacement. It is based on a server and most of the time it runs inside a `VM`.
-![home r0ck Documents notes _resources cucm bmp](/home/r0ck/Documents/notes/_resources/cucm.bmp)
+![home r0ck Documents notes _resources cucm bmp](/_resources/cucm.bmp)
 
 ### CUCM-PUB
 When we work with clusters, we need to replicate data between all the communication managers. In cluster, the publisher maintains the database and push it to the subscribers.
@@ -113,11 +113,11 @@ Cisco has a different series with different products in it. (MX, SX, DX etc...)
 ## DSP (Digital Signaling processors)
 It's a module for Cisco router that have to process digital signals from the PSTN.
 
-![home r0ck Documents notes _resources dsp png](/home/r0ck/Documents/notes/_resources/dsp.png)
+![home r0ck Documents notes _resources dsp png](/_resources/dsp.png)
 
 ## CUBE (Cisco Unified Border Element)
 https://www.cisco.com/c/en/us/products/unified-communications/unified-border-element/index.html
-![home r0ck Documents notes _resources cube png](/home/r0ck/Documents/notes/_resources/cube.png)
+![home r0ck Documents notes _resources cube png](/_resources/cube.png)
 
 The `cube` is a network border element that act as a gateway. It's a bridge between different type of Voice protocol. CUBE is used by enterprise and small and medium-sized organizations to interconnectSIPPSTN access with SIP and H.323 enterprise unified communications networks.
 
@@ -133,7 +133,7 @@ To do that, we use `exway`.
 - The jabber device tries to resolve the dns name of the phone using a custon dns server address. 
   It connects to Expressway E at first, and then, it goes through the tunnel and get to the `communication manager`.
 
-![home r0ck Documents notes _resources exway png](/home/r0ck/Documents/notes/_resources/exway.png)
+![home r0ck Documents notes _resources exway png](/_resources/exway.png)
 
 # VOIP Softwares
 ## Cisco Jabber Client

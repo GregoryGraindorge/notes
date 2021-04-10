@@ -3,8 +3,8 @@
 https://0xsp.com/offensive/offensive-cheatsheet  
 https://cheatography.com/blacklist/cheat-sheets/linux-windows-privilege-escalation/  
 
-[Windows Shell cheat sheet](/home/r0ck/Documents/notes/OSCP/WINDOWS_SHELL.md)  
-[Powershell cheat sheet](/home/r0ck/Documents/notes/OSCP/POWERSHELL.md)  
+[Windows Shell cheat sheet](/OSCP/WINDOWS_SHELL.md)  
+[Powershell cheat sheet](/OSCP/POWERSHELL.md)  
 
 ## Refs
 [Windows/AD Enumeration much more in return](evernote:///view/154730691/s619/62423c91-8a03-6273-a5df-bfd52260f87b/1d460891-63f3-60f9-1414-81daf5a18a5c/)
@@ -326,8 +326,8 @@ https://root4loot.com/post/eternalblue_manual_exploit/
 
 ## MANUAL SYSTEM ENUMERATION
 https://0xsp.com/offensive/privilege-escalation-cheatsheet
-[Windows Shell cheat sheet](/home/r0ck/Documents/notes/OSCP/WINDOWS_SHELL.md)  
-[Powershell cheat sheet](/home/r0ck/Documents/notes/OSCP/POWERSHELL.md)  
+[Windows Shell cheat sheet](/OSCP/WINDOWS_SHELL.md)  
+[Powershell cheat sheet](/OSCP/POWERSHELL.md)  
 https://cheatography.com/blacklist/cheat-sheets/linux-windows-privilege-escalation/
 
 ### Get system informations

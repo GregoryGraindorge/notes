@@ -254,7 +254,7 @@ https://www.tecmint.com/how-to-find-files-with-suid-and-sgid-permissions-in-linu
 
 
 - Find recently modified files
-Using `mtime` (see [mtime note](/home/r0ck/Documents/notes/linux/mtime.md))
+Using `mtime` (see [mtime note](/linux/mtime.md))
 
 	- Files / Directories that had been modified maximum one day ago:   
 
@@ -264,7 +264,7 @@ Using `mtime` (see [mtime note](/home/r0ck/Documents/notes/linux/mtime.md))
 
 			find /home/sports -mmin +120
 
-	- Using `newermt` (see [Compromised note](/home/r0ck/Documents/notes/OSCP/compromised.md))
+	- Using `newermt` (see [Compromised note](/OSCP/compromised.md))
 
 			find / -newermt "2020-07-14" ! -newermt "2020-09-25" -type f 2>/dev/null
 
