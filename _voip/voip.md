@@ -12,7 +12,7 @@ PBX stands for Private Branch Exchange, which is a private telephone network use
 Time and technology, however, have changed the consumer telephony landscape, with the flag-bearer being the Open-Standards-based IP PBX. The point of the “IP” in this new era is that the phone calls are delivered using the Internet Protocol as the underlying transport technology.
 
 ### Analog phone
-![/_resources/telephone.jpg](/home/r0ck/Documents/notes/_resources/telephone.jpg)
+![image](/home/r0ck/Documents/notes/_resources/telephone.jpg)
 An analog phone is one which makes use of analog technology. Analog technology is simply the process by which the technology takes an audio or video signal and translates it into electronic pulses (the human voice being transmitted over the phone, for instance). Also known as Plain Old Telephone Service (POTS), these lines are analog support standard phones, fax machines and modems.
 
 ### Digital phone
